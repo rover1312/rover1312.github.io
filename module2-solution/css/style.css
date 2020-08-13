@@ -5,13 +5,13 @@
 
 body {
     #grad {
-  background-image: linear-gradient(to bottom right, red, blue);
+  background-image: #000000;
 }
 }
 
 h1 {
     text-align: center;
-    color: black;
+    color: yellow;
 }
 
 section {
@@ -35,16 +35,19 @@ section>h2 {
 }
 
 section.Sith>h2 {
-    background-color: #76b8db;
+    background-color: #000000;
+    color: red;
 }
 
 section.Mandalorian>h2 {
-    background-color: #4f7acd;
+    background-color: #000000;
+    color: blue;
+   
 }
 
 section.Yoda>h2 {
-    color: #e2e2e2;
-    background-color: #10328a;
+    color: green;
+    background-color: #000000;
 }
 
 section>p {
